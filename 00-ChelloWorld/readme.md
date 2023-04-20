@@ -1,0 +1,1 @@
+Use el compilador MinGW64
