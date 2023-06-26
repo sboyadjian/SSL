@@ -1,5 +1,7 @@
 #include <stdio.h>
-int main(void) {
-    fprintf( stdout, "Hello world!\n" );
+int main(){
+    FILE *output = fopen("output.txt","w");
+    fprintf(output, "Hello World!\n");
+    fclose(output);
     return 0;
 }
